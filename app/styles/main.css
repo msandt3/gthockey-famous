@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.center-box {
+    padding: 15px 50px 15px 50px;
+    text-align: center;
+}
+
+.logo {
+  backface-visibility: visible;
+  -webkit-backface-visibility: visible;
+}
+
+.full-screen {
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.menuItem{
+    background-color: #ffffff;
+    border: 1px solid #B8860B;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 5px;
+}
+
+.menuItem span{
+    color: #B8860B;
+
+}
